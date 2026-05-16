@@ -23,3 +23,7 @@ int main() {
     delete varAnak1;
     delete varAnak2;
     delete varAnak3;
+
+    cin.get(); // Use this instead of system("pause")
+    return 0;
+}
