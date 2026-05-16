@@ -20,3 +20,15 @@ public:
     ~ibu() {
         cout << "Ibu \"" << nama << "\" tidak ada\n";
     }
+    void cetakAnak() {
+        cout << "Daftar Anak dari Ibu \"" << nama << "\":" << endl;
+
+        for (int i = 0; i < daftar_anak.size(); i++) {
+            cout << daftar_anak[i]->nama << endl;
+        }
+
+        cout << endl;
+    }
+};
+
+#endif
