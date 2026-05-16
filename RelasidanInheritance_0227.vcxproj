@@ -139,10 +139,17 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="agregasi.cpp" />
+    <ClCompile Include="Asosiasi.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
+    <ClCompile Include="komposisi.cpp" />
     <ClCompile Include="RelasidanInheritance_0227.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="anak.h" />
+    <ClInclude Include="ibu.h" />
+    <ClInclude Include="jantung.h" />
+    <ClInclude Include="manusia.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

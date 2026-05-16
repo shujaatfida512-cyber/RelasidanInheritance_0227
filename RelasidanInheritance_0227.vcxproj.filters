@@ -18,9 +18,30 @@
     <ClCompile Include="RelasidanInheritance_0227.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="agregasi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asosiasi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="komposisi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="anak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ibu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jantung.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="manusia.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
