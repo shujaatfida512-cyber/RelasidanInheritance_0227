@@ -15,3 +15,7 @@ public:
         email = e;
         generateId();
     }
+    void generateId() {
+        globalId++;
+        id = globalId;
+    }
