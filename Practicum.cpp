@@ -95,5 +95,9 @@ int main()
     Member m2("Sara", "sara@gmail.com");
 
     Admin admin1("Admin", "admin@gmail.com");
+
+    vector<Member> members;
+    members.push_back(m1);
+    members.push_back(m2);
 }
 
