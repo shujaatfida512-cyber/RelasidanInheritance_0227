@@ -53,3 +53,12 @@ public:
         else
             cout << "Status : Inactive\n";
     }
+    void setStatus(bool s) {
+        status = s;
+    }
+
+    // Get status
+    bool getStatus() {
+        return status;
+    }
+};
