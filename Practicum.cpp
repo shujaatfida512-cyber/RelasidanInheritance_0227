@@ -91,6 +91,9 @@ public:
 
 int main()
 {
+    Member m1("Ali", "ali@gmail.com");
+    Member m2("Sara", "sara@gmail.com");
 
+    Admin admin1("Admin", "admin@gmail.com");
 }
 
