@@ -19,3 +19,6 @@ public:
         globalId++;
         id = globalId;
     }
+    int getId() {
+        return id;
+    }
