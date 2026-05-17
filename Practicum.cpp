@@ -22,3 +22,11 @@ public:
     int getId() {
         return id;
     }
+    string getName() {
+        return name;
+    }
+
+    string getEmail() {
+        return email;
+    }
+};
