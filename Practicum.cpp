@@ -42,3 +42,14 @@ public:
         : User(n, e) {
         status = s;
     }
+    void showProfile() {
+        cout << "\n===== MEMBER PROFILE =====\n";
+        cout << "ID     : " << id << endl;
+        cout << "Name   : " << name << endl;
+        cout << "Email  : " << email << endl;
+
+        if (status)
+            cout << "Status : Active\n";
+        else
+            cout << "Status : Inactive\n";
+    }
