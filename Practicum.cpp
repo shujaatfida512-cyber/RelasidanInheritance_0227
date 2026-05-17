@@ -76,3 +76,9 @@ public:
             members[i].showProfile();
         }
     }
+    void toggleMemberActivation(Member& m) {
+
+        if (m.getStatus()) {
+            m.setStatus(false);
+            cout << "\nMember deactivated successfully.\n";
+        }
