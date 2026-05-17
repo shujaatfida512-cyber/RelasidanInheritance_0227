@@ -82,3 +82,9 @@ public:
             m.setStatus(false);
             cout << "\nMember deactivated successfully.\n";
         }
+        else {
+            m.setStatus(true);
+            cout << "\nMember activated successfully.\n";
+        }
+    }
+};
