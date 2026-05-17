@@ -104,6 +104,7 @@ int main()
 
     admin1.toggleMemberActivation(members[0]);
 
+    admin1.showAllMembers(members);
 
 }
 
