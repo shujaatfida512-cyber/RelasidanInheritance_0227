@@ -62,3 +62,9 @@ public:
         return status;
     }
 };
+class Admin : public User {
+public:
+    // Constructor
+    Admin(string n, string e)
+        : User(n, e) {
+    }
