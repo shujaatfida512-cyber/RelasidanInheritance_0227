@@ -31,3 +31,14 @@ public:
     }
 };
 int User::globalId = 1000;
+
+class Member : public User {
+private:
+    bool status;
+
+public:
+    // Constructor
+    Member(string n, string e, bool s = true)
+        : User(n, e) {
+        status = s;
+    }
