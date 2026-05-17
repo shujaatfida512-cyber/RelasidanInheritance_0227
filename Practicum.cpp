@@ -8,3 +8,10 @@ protected:
     int id;
     string name;
     string email;
+public:
+    // Constructor
+    User(string n, string e) {
+        name = n;
+        email = e;
+        generateId();
+    }
