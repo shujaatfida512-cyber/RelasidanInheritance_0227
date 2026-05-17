@@ -99,5 +99,7 @@ int main()
     vector<Member> members;
     members.push_back(m1);
     members.push_back(m2);
+
+    admin1.showAllMembers(members);
 }
 
