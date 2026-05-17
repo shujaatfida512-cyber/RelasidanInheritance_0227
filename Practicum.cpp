@@ -68,3 +68,11 @@ public:
     Admin(string n, string e)
         : User(n, e) {
     }
+    void showAllMembers(vector<Member>& members) {
+        cout << "\n===== ALL MEMBERS =====\n";
+
+        for (int i = 0; i < members.size(); i++) {
+            cout << "\nMember " << i + 1 << endl;
+            members[i].showProfile();
+        }
+    }
