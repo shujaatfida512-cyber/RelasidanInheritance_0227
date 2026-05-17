@@ -30,3 +30,4 @@ public:
         return email;
     }
 };
+int User::globalId = 1000;
